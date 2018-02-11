@@ -61,22 +61,22 @@ There are three main steps to perform when adding a new widget area to a WordPre
 
 #### Step 1: Register a Widget Area
 
-[tip]If you are using a remote sandbox site, you may want to download files via FTP for editing. If you are using a local sandbox site, you do not need to use FTP. You may use any text editor for this exercise, but do not use a word processor.[/tip] Open your theme's functions.php file in your text editor. The file’s path should be: <your root WP folder>/wp-content/themes/twentysixteen. Add the following code to the end of the file and save it when you are finished:
+>If you are using a remote sandbox site, you may want to download files via FTP for editing. If you are using a local >sandbox site, you do not need to use FTP. You may use any text editor for this exercise, but do not use a word processor.
 
-<pre>function mytraining_widgets_init() {
+Open your theme's functions.php file in your text editor. The file’s path should be: <your root WP folder>/wp-content/themes/twentysixteen. Add the following code to the end of the file and save it when you are finished:
+
+```php
+function mytraining_widgets_init() {
   register_sidebar( array(
     'name' => 'Header Sidebar',
     'id' => 'header_sidebar',
-    'before_widget' => '
-
-<div id="mytraining-widget">',
-    'after_widget' => '</div>
-
-', 
-    'before_title' => '<h2>', 
+    'before_widget' => '<div id="mytraining-widget">',
+    'after_widget' => '</div>',
+    'before_title' => '<h2>',
     'after_title' => '</h2>', ) );
 }
-add_action( 'widgets_init', 'mytraining_widgets_init' );</pre>
+add_action( 'widgets_init', 'mytraining_widgets_init' );
+```
 
 You need to choose a name for this add_action function to distinguish it from others, and the function declares an array of values to characterize it. Here are what these values are determine:
 
@@ -88,20 +88,21 @@ You need to choose a name for this add_action function to distinguish it from ot
 *   `before_title` – the markup generated before the title of any widgets that will be added later on
 *   `after_title` – the markup generated after the title of any user-added widgets
 
-Now if you go to the **Appearance > Widgets** section in your WordPress administration dashboard, you'll see new a new widget area (Header Sidebar) that appears in the list. [![Selection_044](https://make.wordpress.org/training/files/2014/10/Selection_044.png)](https://make.wordpress.org/training/files/2014/10/Selection_044.png)
+Now if you go to the **Appearance > Widgets** section in your WordPress administration dashboard, you'll see new a new widget area (Header Sidebar) that appears in the list.
 
 #### Step 2: Display the Widget Area
 
 To be able to display the new widget area in the header, you need to edit the theme's header.php. In actual practice, you would determine a proper placement of the widget area in the layout of the header template. For this exercise, you will simply add the new widget area at the bottom of the header, as a proof of concept to test that your new widget area works. Open header.php and add the following line to the bottom of the file:
 
-<pre><?php if ( function_exists('dynamic_sidebar')) { dynamic_sidebar('header_sidebar'); } ?>
-</pre>
+```php
+<?php if ( function_exists('dynamic_sidebar')) { dynamic_sidebar('header_sidebar'); } ?>
+```
 
 This code checks that the theme is able to find the sidebar in functions.php, and then it is added to the page. Be sure to save the file with your edits.  
 
 #### Step 3: Adding Content to the Widget Area
 
-Now to add a calendar widget in your website's header, go to **Appearance > Widgets** in the Dashboard and drag **Calendar** to **Header Sidebar**. Type in calendar title and save the changes. [![Selection_047](https://make.wordpress.org/training/files/2014/10/Selection_047.png)](https://make.wordpress.org/training/files/2014/10/Selection_047.png) Check that your calendar is now displayed in the header area. [![Selection_022](https://make.wordpress.org/training/files/2014/10/Selection_022.png)](https://make.wordpress.org/training/files/2014/10/Selection_022.png)
+Now to add a calendar widget in your website's header, go to **Appearance > Widgets** in the Dashboard and drag **Calendar** to **Header Sidebar**. Type in calendar title and save the changes. Check that your calendar is now displayed in the header area.
 
 ### Summary
 
