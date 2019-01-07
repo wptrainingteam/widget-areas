@@ -1,4 +1,4 @@
-#Widget Widget Areas
+# Widget Areas
 ## Description
 
 What is a widget area? Why would you add one to your theme? This lesson demonstrates how to add widget areas to your theme and how to add content to these areas.
