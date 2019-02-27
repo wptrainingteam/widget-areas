@@ -6,9 +6,9 @@ What is a widget area? Why would you add one to your theme? This lesson demonstr
 ## Prerequisite Skills
 
 *   Basic knowledge of HTML and PHP
-*   Basic knowledge of WordPress [widgets](https://codex.wordpress.org/WordPress_Widgets)
-*   Understanding of the [basic file structure of a WordPress theme](https://make.wordpress.org/training/handbook/theme-school/anatomy-of-a-theme/)
-*   Understanding of WordPress [child themes](https://make.wordpress.org/training/handbook/theme-school/child-themes/)
+*   Basic knowledge of WordPress [widgets](https://developer.wordpress.org/themes/functionality/widgets/)
+*   Understanding of the [basic file structure of a WordPress theme](https://make.wordpress.org/training/handbook/lesson-plans/theme-school/anatomy-of-a-theme/)
+*   Understanding of WordPress [child themes](https://make.wordpress.org/training/handbook/lesson-plans/theme-school/child-themes/)
 *   Ability to manage files with FTP
 *   Ability to edit files with a text editor
 
@@ -34,7 +34,7 @@ After completing this lesson, you will be able to:
 ## Teacher Notes
 
 *   Performing a live demo while teaching the steps to add a widget area to a child theme is crucial to having the material "click" for students.
-*   It is easiest for students to work on a locally installed copy of WordPress. Set some time aside before class to assist students with installing WordPress locally if they need it. For more information on how to install WordPress locally, please visit our [Teacher Resources page](http://make.wordpress.org/training/teacher-resources/).
+*   It is easiest for students to work on a locally installed copy of WordPress. Set some time aside before class to assist students with installing WordPress locally if they need it. For more information on how to install WordPress locally, please visit our [Teacher Resources page](https://make.wordpress.org/training/teacher-resources/).
 *   The preferred answers to the screening questions is "yes." Participants who reply "no" to all 5 questions may not be ready for this lesson.
 
 ## Hands-on Walkthrough
