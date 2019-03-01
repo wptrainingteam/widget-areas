@@ -6,9 +6,9 @@ What is a widget area? Why would you add one to your theme? This lesson demonstr
 ## Prerequisite Skills
 
 *   Basic knowledge of HTML and PHP
-*   Basic knowledge of WordPress [widgets](https://developer.wordpress.org/themes/functionality/widgets/)
-*   Understanding of the [basic file structure of a WordPress theme](https://make.wordpress.org/training/handbook/lesson-plans/theme-school/anatomy-of-a-theme/)
-*   Understanding of WordPress [child themes](https://make.wordpress.org/training/handbook/lesson-plans/theme-school/child-themes/)
+*   Basic knowledge of WordPress [widgets](https://github.com/wptrainingteam/widget-areas)
+*   Understanding of the [basic file structure of a WordPress theme](https://github.com/wptrainingteam/anatomy-of-a-theme)
+*   Understanding of WordPress [child themes](https://github.com/wptrainingteam/child-themes)
 *   Ability to manage files with FTP
 *   Ability to edit files with a text editor
 
