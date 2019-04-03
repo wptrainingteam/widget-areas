@@ -124,14 +124,18 @@ Practice adding an additional widget area to your website. You may use the follo
 3.  To embed Facebook comments in a sidebar
 4.  To embed media in a post
 
-**Answer:** 2\. To place repeating content and features throughout a website **What is the first step for adding a new widget area?**
+**Answer:** 2\. To place repeating content and features throughout a website 
+
+**What is the first step for adding a new widget area?**
 
 1.  Add it to theme's widget.php file
 2.  Add it to theme's style.css
 3.  Register it in the theme's functions.php
 4.  Find a new theme that has the widget area you need
 
-**Answer:** 3\. Register it in the theme's functions.php **Which of the following locations can hold a widget area?**
+**Answer:** 3\. Register it in the theme's functions.php 
+
+**Which of the following locations can hold a widget area?**
 
 1.  Theme's sidebar
 2.  Theme's footer
