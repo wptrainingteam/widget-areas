@@ -90,7 +90,15 @@ You need to choose a name for this add_action function to distinguish it from ot
 
 Now if you go to the **Appearance > Widgets** section in your WordPress administration dashboard, you'll see new a new widget area (Header Sidebar) that appears in the list.
 
-#### Step 2: Display the Widget Area
+![](/images/first-step.png)
+
+#### Step 2: Adding Content to the Widget Area
+
+Now to add a calendar widget in your website's header, go to **Appearance > Widgets** in the Dashboard and drag **Calendar** to **Header Sidebar**. Type in calendar title and save the changes. Check that your calendar is now displayed in the header area.
+
+![](/images/second-step.png)
+
+#### Step 3: Display the Widget Area
 
 To be able to display the new widget area in the header, you need to edit the theme's header.php. In actual practice, you would determine a proper placement of the widget area in the layout of the header template. For this exercise, you will simply add the new widget area at the bottom of the header, as a proof of concept to test that your new widget area works. Open header.php and add the following line to the bottom of the file:
 
@@ -100,9 +108,8 @@ To be able to display the new widget area in the header, you need to edit the th
 
 This code checks that the theme is able to find the sidebar in functions.php, and then it is added to the page. Be sure to save the file with your edits.  
 
-#### Step 3: Adding Content to the Widget Area
+![](/images/third-step.png)
 
-Now to add a calendar widget in your website's header, go to **Appearance > Widgets** in the Dashboard and drag **Calendar** to **Header Sidebar**. Type in calendar title and save the changes. Check that your calendar is now displayed in the header area.
 
 ### Summary
 
