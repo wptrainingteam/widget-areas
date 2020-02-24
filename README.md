@@ -35,7 +35,7 @@ After completing this lesson, you will be able to:
 
 *   Performing a live demo while teaching the steps to add a widget area to a child theme is crucial to having the material "click" for students.
 *   It is easiest for students to work on a locally installed copy of WordPress. Set some time aside before class to assist students with installing WordPress locally if they need it. For more information on how to install WordPress locally, please visit our [Teacher Resources page](https://make.wordpress.org/training/teacher-resources/).
-*   The preferred answers to the screening questions is "yes." Participants who reply "no" to all 5 questions may not be ready for this lesson.
+*   The preferred answers to the screening questions are "yes." Participants who reply "no" to all 5 questions may not be ready for this lesson.
 
 ## Hands-on Walkthrough
 
